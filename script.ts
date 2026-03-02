@@ -5,3 +5,5 @@ console.log("hello");
 
 const country="bangladesh";
 console.log(country)
+
+// tsc --init  tsc.config
