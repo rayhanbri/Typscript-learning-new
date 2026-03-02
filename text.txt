@@ -1,0 +1,5 @@
+// npm i -g typescript
+//tsc --version
+//npm init -y
+//npm install --save-dev typescript
+//tsc --init
