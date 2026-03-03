@@ -41,3 +41,14 @@ let dog:Animal = {
      name:'buddy'
 }
 
+//use interface for object shapes ,
+//type alias for unions and intersactions
+
+interface User{
+    name:string,
+    age:number 
+}
+
+type UserID = string | number;
+
+
