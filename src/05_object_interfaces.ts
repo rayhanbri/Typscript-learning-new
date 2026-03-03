@@ -1,8 +1,18 @@
-
+// Interface  
+interface User{
+    name:string,
+    age:number
+    email?:string //optional 
+    readonly id:number   //readonly propertry 
+}
 
 
 //object type anotation
-let  user : { age:number , name: string} = {
+let  user : User  = {
     age:12,
-    name:'rayhan'
+    name:'rayhan',
+    email:"hello",
+    id:3
 }
+
+// user.id=4 
